@@ -479,7 +479,10 @@ public class Player {
         }
     }
     public void levelUp(int amount){
+        System.out.println("Level Up!");
+        System.out.printf("Level: " + this.level + " -> ");
         this.level+= amount;
+        System.out.printf(this.level + "\n");
         System.out.printf("Attack: " + this.attack + " -> ");
         this.attack += Math.ceil((float)this.level*(float)1.5);
         System.out.printf(((Integer)this.attack).toString() + '\n');
@@ -542,7 +545,7 @@ public class Player {
         }
         System.out.printf("   |       \n");
         System.out.printf("     |   Strength: " + getStrength() + "");
-        if((((Integer)getExp()).toString()).length() == 1){
+        if((((Integer)getStrength()).toString()).length() == 1){
             System.out.printf("    ");
         }
         else if((((Integer)getStrength()).toString()).length() == 2){
@@ -556,7 +559,7 @@ public class Player {
         }
         System.out.printf("  |       \n");
         System.out.printf("     |   Defence: " + getDefence() + "");
-        if((((Integer)getExp()).toString()).length() == 1){
+        if((((Integer)getDefence()).toString()).length() == 1){
             System.out.printf("    ");
         }
         else if((((Integer)getDefence()).toString()).length() == 2){
@@ -570,7 +573,7 @@ public class Player {
         }
         System.out.printf("   |       \n");
         System.out.printf("     |   Speed: " + getSpeed() + "  ");
-        if((((Integer)getExp()).toString()).length() == 1){
+        if((((Integer)getSpeed()).toString()).length() == 1){
             System.out.printf("    ");
         }
         else if((((Integer)getSpeed()).toString()).length() == 2){
