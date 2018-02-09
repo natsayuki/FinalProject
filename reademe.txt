@@ -1,0 +1,38 @@
+Instructions on how to run:
+
+I don't actually really know how to compile things on my own yet. I've just been
+compiling them in IntelliJ, so I guess any way you can compile it would be good
+
+Some lines that I was talking about in the email:
+
+432: Player
+414: Player
+392: Player
+367: Player
+319: Player
+
+These are just a few examples and I feel like there is a much more compact way to do the same
+thing that isn't a switch statement. Maybe not though.
+
+I have run into a bug when dropping an item after equipping it, but it only happened once and
+could not replicate it, so if you run into that bug and have any ideas on why it happened,
+please let me know.
+
+As for the actual playability of the game, I have not played through it all myself because I don't
+have nearly enough time. You can use debug commands to jump around and stuff though if you would
+like to do that.
+
+debug commands:
+
+coordinate [xy] - returns the players current x and y positions
+[d]amage - prompts you to input a number then deals that amount of damage to the player
+[h]eal - prompts you to input a number then heals the player for that amount
+[e]xpup - prompts you to input a number then grants the player that much exp
+[l]evelup - prompts you to input a number then grants the player that many levels
+[a]ddtobag - prompts you to input an item name then adds that item to your bag
+attack - prompts you to input a number then sets the player's attack equal to that number
+health - prompts you to input a number then sets the player's health equal to that number
+die - kills the player
+head - prints any item on the player's head
+hand - prints any item in the player's hand
+[g]oto - prompts an x coordinate then a y coordinate and moves the player there

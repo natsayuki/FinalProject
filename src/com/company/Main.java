@@ -292,21 +292,18 @@ public class Main {
                             player.heal(amount);
                             System.out.println("Player healed for " + ((Integer)amount).toString());
                             break;
-                        case "exp up":
                         case "expup":
                         case "e":
                             System.out.println("how much exp");
                             input = scanner.nextLine();
                             player.expUp(Integer.valueOf(input));
                             break;
-                        case "level up":
                         case "levelup":
                         case "l":
                             System.out.println("How many levels");
                             amount = scanner.nextInt();
                             player.levelUp(amount);
                             break;
-                        case "add to bag":
                         case "addtobag":
                         case "a":
                             input = scanner.nextLine();
