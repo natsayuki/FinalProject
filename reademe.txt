@@ -1,3 +1,6 @@
+If you want to change anything for whatever reason, I can send you a developer invite, or you can just email it
+to me or something.
+
 Instructions on how to run:
 
 I don't actually really know how to compile things on my own yet. I've just been
